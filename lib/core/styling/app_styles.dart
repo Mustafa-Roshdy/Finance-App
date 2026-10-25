@@ -25,6 +25,20 @@ class AppStyles {
     color: AppColors.blackColor,
   );
 
+  static TextStyle black15BoldStyle=TextStyle(
+    fontFamily: AppFonts.mainFontName,
+    fontSize: 15.sp,
+    fontWeight: FontWeight.bold,
+    color: AppColors.blackColor,
+  );
+
+  static TextStyle primary15MediumStyle=TextStyle(
+    fontFamily: AppFonts.mainFontName,
+    fontSize: 15.sp,
+    fontWeight: FontWeight.w400,
+    color: AppColors.primaryColor,
+  );
+
   static TextStyle grey12MediumStyle=TextStyle(
     fontFamily: AppFonts.mainFontName,
     fontSize: 12.sp,
