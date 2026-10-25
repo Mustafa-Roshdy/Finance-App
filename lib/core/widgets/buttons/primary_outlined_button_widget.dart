@@ -49,7 +49,7 @@ class PrimaryOutlinedButtonWidget extends StatelessWidget {
               fontFamily: AppFonts.mainFontName,
               color: textColor ?? AppColors.primaryColor,
               fontSize: 15.sp,
-              fontWeight: FontWeight.w500,
+              fontWeight: FontWeight.w600,
             ),
       ),
     );
