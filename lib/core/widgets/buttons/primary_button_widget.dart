@@ -1,4 +1,5 @@
 import 'package:day11/core/styling/app_colors.dart';
+import 'package:day11/core/styling/app_fonts.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -39,6 +40,7 @@ class PrimaryButtonWidget extends StatelessWidget {
         buttonText ?? "",
         style: textStyle ??
             TextStyle(
+              fontFamily: AppFonts.mainFontName,
               color: textColor ?? AppColors.whiteColor,
               fontSize: 15.sp,
               fontWeight: FontWeight.w500,

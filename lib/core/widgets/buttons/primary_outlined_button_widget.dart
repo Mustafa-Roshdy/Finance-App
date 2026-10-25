@@ -1,4 +1,5 @@
 import 'package:day11/core/styling/app_colors.dart';
+import 'package:day11/core/styling/app_fonts.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -45,6 +46,7 @@ class PrimaryOutlinedButtonWidget extends StatelessWidget {
         buttonText ?? "",
         style: textStyle ??
             TextStyle(
+              fontFamily: AppFonts.mainFontName,
               color: textColor ?? AppColors.primaryColor,
               fontSize: 15.sp,
               fontWeight: FontWeight.w500,
