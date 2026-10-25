@@ -39,7 +39,7 @@ class CustomTextFieldWidget extends StatelessWidget {
           hintStyle: TextStyle(
             fontSize: 15.sp,
             fontFamily: AppFonts.mainFontName,
-            fontWeight: FontWeight.w500,
+            fontWeight: FontWeight.w600,
             color: textColor ?? AppColors.secondaryColor,
           ),
           contentPadding: EdgeInsets.symmetric(
